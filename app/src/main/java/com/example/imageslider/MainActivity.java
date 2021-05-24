@@ -15,6 +15,8 @@ import androidx.viewpager2.widget.ViewPager2;
 import java.util.ArrayList;
 import java.util.List;
 
+import de.hdodenhof.circleimageview.CircleImageView;
+
 public class MainActivity extends AppCompatActivity {
 
     ViewPager2 imageContainer;
@@ -22,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
     int list[];
     TextView[] dots;
     LinearLayout layout;
-    Button btn_next, btn_previous;
+    CircleImageView btn_next, btn_previous;
     List<Data> data;
 
     @Override
